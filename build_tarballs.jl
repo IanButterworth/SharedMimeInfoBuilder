@@ -17,7 +17,7 @@ apk add intltool
 cd $WORKSPACE/srcdir
 cd shared-mime-info-1.10/
 ./configure --prefix=$prefix --host=$target
-make -j${nproc}
+make -j1
 make install
 
 """
